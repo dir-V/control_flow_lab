@@ -6,7 +6,6 @@ public class RandomNumberGame {
 //      Creating random number generator between 1 and 10
         Random random = new Random();
         int randomNumber = random.nextInt(10);
-        boolean correct = false;
         int tries = 3;
 
 //        Adds a do while loop which keeps running while the user has tries available.
