@@ -9,7 +9,7 @@ public class NumberGameStatic {
         Scanner reader = new Scanner(System.in);
         int guess = reader.nextInt();
 
-//      if statement which make
+//      if statement which indicates whether the guessed number is higher or lower than number variable
         if (guess > number){
             System.out.println("Wrong! (Hint: It's lower!)");
         } else if (guess < number) {

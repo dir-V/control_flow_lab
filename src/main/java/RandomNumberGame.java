@@ -9,23 +9,8 @@ public class RandomNumberGame {
         boolean correct = false;
         int tries = 3;
 
-//      for loop that iterates 3 times asking for user guesses
-//      When the user runs out of guesses the loop should stop and print message
-//            for (int i = 3; i > 0; i--) {
-//                Scanner reader = new Scanner(System.in);
-//                System.out.println(i + " Guesses left:");
-//                int guess = reader.nextInt();
-//                if (guess == randomNumber) {
-//                    System.out.println("You guessed correct!");
-//                    break;
-//                } else if (guess > randomNumber) {
-//                    System.out.println("Wrong! Hint: It's lower!");
-//                }else if (guess < randomNumber) {
-//                    System.out.println("WRONG");
-//                } else {
-//                    System.out.println("Wrong! Hint: Its higher!");
-//                }
-
+//        Adds a do while loop which keeps running while the user has tries available.
+//        Once the user runs out a tries a message or guesses correctly, the loop will stop.
              do {
                  Scanner reader = new Scanner(System.in);
                  System.out.println(tries + " Guesses left:");
